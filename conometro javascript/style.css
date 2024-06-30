@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(150deg, #dd2295,#7b00ff, #00dfd4);
+}
+
+#stopwatch{
+    background-color: #262626;
+    padding: 2rem;
+    border-radius: 8px;
+    font-size: 23px;
+    color:#fff;
+}
+
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    height: 250px;
+    width: 250px;
+    border: 4px solid #00dfd4;
+    border-radius: 100%;
+}
+
+
+#actions{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+#actions button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 40px;
+ padding: .6rem;
+ font-size: 1rem;
+ border-radius: 4px;
+ border: none;
+ background-color: #e0e7ff;
+ cursor: pointer;
+ transition: .4s ease-in;
+ margin-top: 1.5rem;
+}
+
+#actions button:hover{
+    background-color: #f8b5ed;
+}
+
+#marks-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    list-style: none;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+  
+   

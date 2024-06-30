@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .containerNavBar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .containerNavBar .sections {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .containerNavBar .buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .sections a {
+      font-size: 16px;
+    }
+  
+    .container {
+      padding-top: 140px;
+    }
+  
+    .livro {
+      width: 120px;
+      height: 180px;
+    }
+  
+    .livro .capa h2 {
+      font-size: 14px;
+    }
+  
+    .livro p {
+      font-size: 10px;
+    }
+  
+    .containerNavBar .logo img {
+      width: 30px;
+      height: 30px;
+    }
+  }
